@@ -1,0 +1,159 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap' );
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+textarea::-webkit-scrollbar {
+	display: none;
+}
+
+textarea {
+    resize: none;
+}
+
+h3 h4 {
+	font-weight: bold;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 10px 0 20px;
+}
+
+.calendar-screen {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.alert-error {
+    color:  #990000;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* REACT BIG CALENDAR */
+
+.rbc-calendar {
+    height: 100%;
+}
+
+.rbc-time-header {
+    margin-right: 0px !important;
+}
+
+.rbc-time-content::-webkit-scrollbar {
+    display: none;
+}
+
+.rbc-event:focus {
+    outline: none !important;
+}
+
+/* REACT MODAL */
+
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: #F3F3F3;
+    border-radius: 5px;
+    color: rgb( 51, 51, 51 );
+    display: inline;
+    max-height: 645px;
+    max-width: 500px;
+    outline: none;
+    padding: 10px;
+}
+
+.modal-fondo {
+    background-color: rgba( 0, 0, 0, 0.3 );
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.modal-title {
+    background: #572364;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* REACT DATE TIME PICKER */
+
+.react-datetime-picker__wrapper {
+    border: 0px solid grey !important;
+}
+
+.react-datetime-picker input:focus {
+    outline: none;
+}
+
+/* FAB */
+
+.fab, .fab-danger {
+    border-radius: 100%;
+    bottom: 30px;
+    font-size: 25px;
+    padding: 15px;
+    position: fixed;
+}
+
+.fab {
+    right: 50px;
+}
+
+.fab-danger {
+    right: 110px;
+}
+
+/* SPINNER */
+
+.container-spinner {
+	background: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}

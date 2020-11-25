@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en LoginScreen Debe mostrar el componente correctamente 1`] = `
+<div
+  className="form-register"
+>
+  <div
+    className="container-login animate__animated animate__fadeIn"
+    id="container"
+  >
+    <div
+      className="form-container sign-up-container"
+    >
+      <form
+        autoComplete="off"
+        className="form"
+        onSubmit={[Function]}
+      >
+        <h3>
+          Register
+        </h3>
+        <input
+          className="form-control input-login null"
+          name="registerName"
+          onChange={[Function]}
+          placeholder="Nombre"
+          type="text"
+          value=""
+        />
+        <input
+          className="form-control input-login null"
+          name="registerEmail"
+          onChange={[Function]}
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+        <input
+          className="form-control input-login null"
+          name="registerPassword"
+          onChange={[Function]}
+          placeholder="Contraseña"
+          type="password"
+          value=""
+        />
+        <input
+          className="form-control input-login null"
+          name="registerPassword2"
+          onChange={[Function]}
+          placeholder="Repetir contraseña"
+          type="password"
+          value=""
+        />
+        <button
+          className="btn-form"
+          disabled={false}
+        >
+          Crear cuenta
+        </button>
+      </form>
+    </div>
+    <div
+      className="form-container sign-in-container"
+    >
+      <form
+        autoComplete="off"
+        className="form"
+        onSubmit={[Function]}
+      >
+        <h3>
+          Login
+        </h3>
+        <input
+          className="form-control input-login null"
+          name="loginEmail"
+          onChange={[Function]}
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+        <input
+          className="form-control input-login null"
+          name="loginPassword"
+          onChange={[Function]}
+          placeholder="Contraseña"
+          type="password"
+          value=""
+        />
+        <button
+          className="btn-form"
+          disabled={false}
+        >
+          Ingresar
+        </button>
+      </form>
+    </div>
+    <div
+      className="overlay-container"
+    >
+      <div
+        className="overlay"
+      >
+        <div
+          className="overlay-panel overlay-left"
+        >
+          <h4>
+            ¡Bienvenido!
+          </h4>
+          <p>
+            Para mantenerse conectado con nosotros, inicie sesión
+          </p>
+          <button
+            className="btn-form ghost"
+            disabled={false}
+            id="signIn"
+            onClick={[Function]}
+          >
+            Login
+          </button>
+        </div>
+        <div
+          className="overlay-panel overlay-right"
+        >
+          <h4>
+            ¡Hola!
+          </h4>
+          <p>
+            Ingrese sus datos y comience su viaje con nosotros
+          </p>
+          <button
+            className="btn-form ghost"
+            disabled={false}
+            id="signUp"
+            onClick={[Function]}
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
